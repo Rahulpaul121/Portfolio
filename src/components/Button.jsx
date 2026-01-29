@@ -1,5 +1,7 @@
 import React from 'react'
 
+//testing
+
 const Button = ({text, className, id}) => {
   return (
     <a onClick={(e)=>{e.preventDefault(); const target=document.getElementById('counter'); if(target && id){
